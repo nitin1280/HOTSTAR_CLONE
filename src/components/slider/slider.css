@@ -1,0 +1,40 @@
+/* carousel.css */
+.container {
+    width:99%;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    text-align: center;
+    background-color: #090b13;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+  }
+  
+  .cards {
+    width: 100%;
+    height: 950px;
+    border-radius: 8px;
+  }
+  /* Add these classes to your CSS file */
+
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin: 0;
+    }
+  
+    .cards {
+      height: auto;
+    }
+  }
+  
