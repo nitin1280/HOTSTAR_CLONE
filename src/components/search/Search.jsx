@@ -8,7 +8,7 @@ const Search = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [suggestions, setSuggestions] = useState([]);
 
-  const API = `https://academics.newtonschool.co/api/v1/ott/show`;
+  const API = `https://academics.newtonschool.co/api/v1/ott/show?limit=100`;
 
   useEffect(() => {
     const fetchApiData = async (url) => {
