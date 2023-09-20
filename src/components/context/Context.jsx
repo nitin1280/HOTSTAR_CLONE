@@ -23,7 +23,7 @@ import {
         try {
           setLoading(true);
           const res = await fetch(
-            "https://academics.newtonschool.co/api/v1/ott/show",
+            "https://academics.newtonschool.co/api/v1/ott/show?limit=100",
             { headers }
           );
           const data = await res.json();
